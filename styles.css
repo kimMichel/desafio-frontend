@@ -61,3 +61,29 @@ header ul li a {
   width: 256px;
   border-radius: 50%;
 }
+
+hr {
+  height: 1px;
+  background-color: #9a9a9a;
+}
+
+.project {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.project-card {
+  border: 2px solid #9a9a9a;
+  border-radius: 10px;
+  padding: 12px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-weight: bold;
+}
