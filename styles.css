@@ -1,0 +1,63 @@
+body {
+  background: #d9d9d9;
+  padding: 0;
+  margin: 0 240px;
+}
+
+header {
+  display: flex;
+  background: #9a9a9a;
+  align-items: center;
+  padding: 0;
+}
+
+header img {
+  height: 56px;
+  width: 56px;
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #ffff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.main {
+  display: flex;
+  padding: 56px 24px;
+}
+
+.main-text-content {
+  font-weight: bold;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.name {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 36px;
+}
+
+.role {
+  margin-top: 0;
+}
+
+.bio {
+  color: #7b7b7b;
+  margin-right: 20px;
+}
+
+.avatar {
+  height: 256px;
+  width: 256px;
+  border-radius: 50%;
+}
